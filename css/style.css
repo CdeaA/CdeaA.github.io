@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , 'sans-serif';
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #0ef;
+}
+
+#projects {
+    background-color: #426e86;
+}
+
+#hero {
+    min-height: 100vh;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero h2 {
+    font-weight: 300;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    padding-top: 6rem;
+    background-image: url("../img/Home.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+    
+}
+
+.jumbotron-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.jumbotron-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.jumbotron-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.jumbotron-sci a:hover {
+    background: #fff;
+    color: #fff;
+    box-shadow: 0 0 20px #0ef;
+    
+}
+
+.jumbotron-content a:hover {
+    background: #fff;
+    color: #426e86;
+    text-decoration: none;
+    
+  
+   
+}
+
+
+section {
+    padding-top: 5rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/* style next and previous buttons */
+a { 
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.button a:hover {
+    background-color: #426e86;
+    color: #fff;
+}
+
+.previous {
+    background-color: #fff;
+    color: #426e86;
+}
+
+.next {
+    background-color: #fff;
+    color: #426e86;
+}
+.round  {
+    border-radius: 50%;
+}
